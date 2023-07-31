@@ -1,0 +1,44 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+  .traffic-light {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  .traffic-light .signals {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c2bfc0;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .traffic-light .signals > div {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 0;
+    background-color: #bab7b74d;
+  }
+  /* .traffic-light .signals .red-light {
+    background-color: #808080;
+  }
+  .traffic-light .signals .yellow-light {
+    background-color: #808080;
+  }
+  .traffic-light .signals .green-light {
+    background-color: #808080;
+  } */
+  .traffic-light .button button {
+    width: 100px;
+    height: 50px;
+    background-color: #5110b9;
+    color: #ffffff;
+  }
